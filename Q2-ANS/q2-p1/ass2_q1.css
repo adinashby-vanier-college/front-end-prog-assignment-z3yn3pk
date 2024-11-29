@@ -1,0 +1,252 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+/* Outer container */
+.outer-container {
+  display: flex;
+  flex-direction: column;  
+  justify-content: flex-start;  
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  height: 700px;
+  width: 1000px;
+}
+
+/* Inner container */
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  background-color: #FF4C67;
+  padding: 20px; 
+  border-radius: 5px; 
+  border: 1px solid #ddd;
+  text-align: center; 
+  width: 100%; 
+  height: 450px;
+  position: relative;
+  top: -30px;
+  overflow: hidden; 
+}
+
+/* Small image at the bottom right of the inner container */
+.inner-container .bottom-right-image {
+  position: absolute;
+  bottom: 10px;   
+  right: 10px;    
+  z-index: 20;    
+}
+
+.inner-container .bottom-right-image img {
+  width: 200px;    
+  height: 400px; 
+  position: relative;
+  left: -300px;
+  bottom: -90px;
+  transform: rotate(25deg);
+}
+
+.tindog-logo {
+  position: absolute;
+  top: 20px; 
+  left: 20px;
+  z-index: 10;
+}
+
+.tindog-logo img {
+  width: 100px; 
+  height: 50px; 
+  position: relative;
+  top: -50px;
+  right: -100px;
+}
+
+/* navigation bar */
+.nav-bar {
+  display: flex; 
+  justify-content: center; 
+  gap: 40px;
+  margin-right: -350px;
+  margin-top: -50px;
+}
+
+.nav-bar a {
+  color: white;
+  opacity: 0.5;
+  text-decoration: none; 
+  font-size: 16px; 
+  font-weight: normal;
+  font-family: 'Times New Roman', Times, serif;
+}
+ 
+/* Left Column */
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center;
+  width: 50%; 
+  padding: 20px; 
+  background-color: #FF4C67; 
+  max-width: 300px; 
+  word-wrap: break-word; 
+  text-align: left;
+  margin-left: -700px;
+  position: relative;
+}
+
+/* Title Styling */
+.title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #ffff;
+  margin-bottom: 0px;
+  line-height: 1.4;
+  position: relative;
+  right: -100px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+  width: 100%; 
+  position: relative;
+  bottom: -20px;
+  right: -85px;
+}
+
+/* Style for the logo image */
+.button-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+
+
+/* Style for the logo image */
+.button-icon2 {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Button 1 style */
+.download {
+  background-color: #343A40; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: auto;
+}
+
+/* Button 1 Hover effect */
+.download:hover {
+  background-color: #555;
+}
+
+/* Button 2 style */
+.download2 {
+  background-color: #f8f8f8;
+  border: none;
+  color: #343A40; 
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+/* Button 2 Hover effect */
+.download2:hover {
+  background-color: #ddd;
+}
+
+/* Button Icon styling */
+.button-icon {
+  margin-right: 8px;
+  width: 20px; 
+  height: auto; 
+}
+
+.footer {
+  background-color: white;
+  width: 100%;  /* Set the footer to 100% of the outer-container width */
+  padding: 20px 0;
+  margin-top: auto;  /* Ensures the footer stays at the bottom of the outer-container */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;  
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.4;
+}
+
+.footer-text-2 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #9d9a9a;
+  line-height: 1.4;
+}
+
+svg {
+  display: block;  
+  margin: 0 auto; 
+  width: 60px;   
+  height: 60px;  
+  color: #ee8172;
+}
+
+/* Box Styling */
+.box1, .box2, .box3 {
+  max-width: 200px;  /* Limit the size of each box */
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+

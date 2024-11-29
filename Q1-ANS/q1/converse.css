@@ -1,0 +1,120 @@
+<!--body{
+    font-family: Arial;
+    border: 5px solid black;
+    margin:20px;
+    max-width: 800px;
+}
+
+.sale{
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin-top: 10px;
+}
+
+.title{
+    background-color: rgb(230, 229, 227);
+    padding: 25px;
+    margin-top: 0;
+    margin-bottom: 0%;
+    text-align: center;
+    max-width: 100%;
+}
+
+.color-options {
+    display: flex;
+    margin-top: 10px;
+}
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.color-option.black {
+    background-color: black;
+}
+
+.color-option.blue {
+    background-color: rgb(51, 51, 186);
+}
+
+.color-option.red {
+    background-color: rgb(189, 46, 46);
+}
+
+.color-option.yellow {
+    background-color: rgb(211, 175, 90);
+}
+.color-option.green {
+    background-color: rgb(128, 196, 128);
+}
+
+.color-option.brown {
+    background-color: rgb(95, 72, 72);
+}
+
+.info{
+    color:black;
+}
+.line{
+    line-height: 5px;
+    border:3px solid black;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.cart{
+    color:white;
+    background-color: black;
+    text-align: center;
+    display: block;
+    margin-top: 0;
+    padding: 20px;
+}
+.cart:hover{
+    color:black;
+    background-color: white;
+}
+
+.converse-photo{
+    width:200px;
+    height: auto;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+.price, .shipping, .description, .info, .list-title, .list{
+    display: inline-block;
+}
+
+
+.shipping{
+    color:rgb(145, 142, 142);
+    display: inline-block;
+}
+
+.product_container{
+    display: flex;
+}
+
+.left_of_the_page{
+    flex: 1;
+}
+
+.middle_of_the_page{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.right_of_the_page{
+    flex: 1;
+    margin-left: 20px;
+}
